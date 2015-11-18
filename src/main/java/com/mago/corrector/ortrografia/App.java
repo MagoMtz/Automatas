@@ -5,7 +5,7 @@ import org.languagetool.language.Spanish;
 
 public class App 
 {
-	private static final String CADENA="muchos herrores hortograficos.";
+	private static final String CADENA="muchos herrores hortograficos";
 	
     public static void main(String[] args)
     {

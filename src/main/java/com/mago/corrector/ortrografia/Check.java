@@ -1,4 +1,4 @@
-package com.mago.corrector.ortrografia;
+﻿package com.mago.corrector.ortrografia;
 
 import java.io.IOException;
 import java.util.List;
@@ -24,7 +24,7 @@ public class Check {
     		for (RuleMatch match : matches){
     	        error =("Error en la línea " +match.getLine() + ", espacio " +match.getColumn() + ": " + match.getMessage()+"\n"+"Palabras sugeridas: " +
     	    	        match.getSuggestedReplacements());
-    	        mensaje=mensaje+"\n"+error;
+    	        mensaje=mensaje+" \n"+error;
     		}
     	} catch (IOException e) {
     		// TODO Auto-generated catch block
